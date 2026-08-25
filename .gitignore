@@ -1,0 +1,8 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Archivos locales que no van al repo compartido
+.env
+.env.local
