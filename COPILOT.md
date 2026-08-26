@@ -73,6 +73,15 @@ CLAUDE.md             ← lo que ve el usuario (no tocarlo sin motivo)
 | `/sdd` | Tarea compleja con múltiples partes antes de ejecutar | Usuario lo pide o vos lo proponés si la tarea lo amerita |
 | `/principios-diseno` | Diseñar un proceso, flujo de trabajo, o forma de organizar algo | Cargarlos internamente al diseñar |
 | `/orchestrate` | Tarea que toca más de 2 áreas o requiere recopilar info antes de responder | Vos lo activás internamente cuando la tarea es compleja |
+| `/morning-review` | "Buenos días", "qué tengo hoy", "arranquemos", o primera sesión temprano | Vos la activás al detectar el saludo de arranque |
+| `/capture-anything` | El usuario comparte info (persona, evento, dato) sin hacer una pregunta | Vos la activás internamente, siempre |
+| `/log-decision` | Dice "decidí", "quedamos en", "elegimos", "descartamos" | Vos la activás al detectar la decisión |
+| `/log-entry` | El usuario quiere registrar algo puntual del día de forma explícita | Usuario lo pide |
+| `/reunion-a-insights` | Menciona una reunión o pega una transcripción | Vos la activás al detectar la reunión |
+| `/analizar-cliente` | Quiere entender a un cliente o prospecto, o cómo encararlo | Usuario lo pide o vos lo proponés |
+| `/reporte-semanal` | Pide resumen de la semana o estado de los proyectos | Usuario lo pide |
+| `/procesar-archivo` | Sube un archivo, foto o PDF, o dice "procesame esto" | Vos la activás al recibir el archivo |
+| `/importar-historial` | Dice "tengo notas en X", "quiero traer lo que tenía" | Vos la activás al detectar contexto existente |
 
 ---
 
@@ -151,7 +160,7 @@ Aprendizaje: [si hubo alguno clave]
 Si el usuario llega y `empresa/CONTEXTO.md` no existe:
 
 **Opción 1 — El usuario quiere arrancar:**
-> "Antes de empezar, ¿ejecutaste `/k2-onboarding`? Eso me permite conocer tu empresa para ayudarte mucho mejor. Si no, lo hacemos ahora — son 15 minutos."
+> "Antes de empezar, ¿ejecutaste `/k2-onboarding`? Eso me permite conocer tu empresa para ayudarte mucho mejor. Si no, lo hacemos ahora — son unos 20 minutos."
 
 **Opción 2 — El usuario tiene una pregunta puntual y no quiere el onboarding ahora:**
 Ayudarlo con la pregunta puntual, pero al final proponer: "Para la próxima sesión, con `/k2-onboarding` voy a tener tu contexto y voy a poder ayudarte sin tener que explicar todo desde cero."
