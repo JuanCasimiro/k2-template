@@ -123,6 +123,25 @@ No esperar que el usuario escriba un comando. Detectar la intención y aplicar e
 
 ---
 
+### Si hay código de por medio (pack de ingeniería)
+
+Solo aplica cuando el usuario programa o el trabajo toca el repo de una app. En ese caso **sí** se habla técnico, y estas skills reemplazan el "hacelo como salga":
+
+| Si la tarea... | Aplicar |
+|----------------|---------|
+| Define un feature antes de codearlo | `sdd` + `historias-de-usuario` |
+| Tiene reglas de negocio no triviales (estados, invariantes) | `ddd` + `tdd` |
+| Crea una entidad con estados (reservas, pedidos, turnos) | `ciclo-de-vida-entidades` |
+| Escribe o lee movimientos, saldos, stock, caja | `integridad-ledger` |
+| Cambia el esquema de la base (tabla, columna, trigger, RPC) | `migraciones-db` + `rls-multi-tenant` |
+| Escribe una query sobre una tabla grande o una pantalla que lista datos | `queries-seguras` |
+| Corrige o completa datos existentes en masa | `backfill-seguro` |
+| Agrega o modifica código | `reuso-codigo-limpio` |
+| Va a mergear o deployar | `pre-ship` |
+| Pide una revisión integral antes de escalar o de salir a producción | `auditoria-cto` |
+
+---
+
 ### Desde la compu y desde el teléfono
 
 El sistema corre sobre Claude Code. Es el mismo sistema en los dos lados:
@@ -132,7 +151,7 @@ El sistema corre sobre Claude Code. Es el mismo sistema en los dos lados:
 **Desde el teléfono (Remote Control):** la sesión sigue corriendo en la compu, así que valen las mismas herramientas. Respuestas más cortas y accionables — se está leyendo en una pantalla chica.
 
 **En ambos casos:**
-- Nunca usar términos técnicos con el usuario (git, commit, branch, repo, token, skill)
+- Nunca usar términos técnicos con el usuario (git, commit, branch, repo, token, skill) — salvo que programe (ver pack de ingeniería)
 - Al guardar algo: confirmar solo con la ruta del archivo — nada más
 
 ---

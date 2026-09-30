@@ -83,6 +83,27 @@ CLAUDE.md             ← lo que ve el usuario (no tocarlo sin motivo)
 | `/procesar-archivo` | Sube un archivo, foto o PDF, o dice "procesame esto" | Vos la activás al recibir el archivo |
 | `/importar-historial` | Dice "tengo notas en X", "quiero traer lo que tenía" | Vos la activás al detectar contexto existente |
 
+### Pack de ingeniería (solo si hay código)
+
+Skills para construir software con disciplina: base de datos, dominio, calidad y salida a producción. Se activan cuando la tarea toca el repo de una app; con un usuario que no programa, no aparecen. Stack de referencia: Postgres/Supabase + TypeScript, pero los principios aplican a cualquier stack.
+
+| Skill | Cuándo activarla |
+|-------|-----------------|
+| `/historias-de-usuario` | Documentar un feature (nuevo o existente) en historias + escenarios Gherkin |
+| `/ddd` | Lógica de negocio con estados, reglas e invariantes |
+| `/tdd` | Escribir la lógica de dominio test-first (rojo → verde → refactor) |
+| `/ciclo-de-vida-entidades` | Toda entidad con estado: todas sus transiciones antes de producción |
+| `/integridad-ledger` | Tablas de movimientos/saldos: convención de signo, append-only, un writer por flujo |
+| `/migraciones-db` | Cualquier cambio de esquema: versionado en el repo antes de aplicarlo |
+| `/rls-multi-tenant` | Tabla, vista o RPC nueva en una base compartida entre clientes |
+| `/queries-seguras` | Queries sobre tablas grandes: paginación, índices, nada de `select *` sin límite |
+| `/backfill-seguro` | UPDATE masivo: dry-run → backup → aplicar → verificar → rollback |
+| `/reuso-codigo-limpio` | Antes de crear un componente/función: buscar si ya existe |
+| `/pre-ship` | Checklist antes de mergear o deployar |
+| `/auditoria-cto` | Revisión integral (seguridad, performance, datos, plomería) — orquesta las anteriores |
+
+Para Supabase/Postgres conviene sumar las skills oficiales: `npx skills add supabase/agent-skills`.
+
 ---
 
 ## Protocolo de sesión típica

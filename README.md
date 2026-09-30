@@ -65,6 +65,21 @@ proyectos/         ← una carpeta por área de tu negocio
 
 ---
 
+## Si programás: pack de ingeniería
+
+Además de las skills de negocio, el template trae 12 skills para construir software con disciplina. Se activan solas cuando la tarea toca código:
+
+| Frente | Skills |
+|--------|--------|
+| Definir antes de codear | `sdd` · `historias-de-usuario` · `ddd` · `tdd` |
+| Base de datos | `migraciones-db` · `rls-multi-tenant` · `queries-seguras` · `backfill-seguro` |
+| Integridad del dominio | `ciclo-de-vida-entidades` · `integridad-ledger` · `reuso-codigo-limpio` |
+| Salida a producción | `pre-ship` · `auditoria-cto` |
+
+Nacieron de operar un SaaS multi-tenant en producción: cada regla existe porque algo se rompió sin ella. Stack de referencia Postgres/Supabase + TypeScript; los principios aplican a cualquier stack. Para Supabase sumá las oficiales: `npx skills add supabase/agent-skills`.
+
+---
+
 ## ¿Ya tenés información en otro lado?
 
 Pegale esto:
