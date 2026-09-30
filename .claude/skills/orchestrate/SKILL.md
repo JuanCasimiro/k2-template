@@ -1,3 +1,8 @@
+---
+name: orchestrate
+description: "Divide una tarea grande, multi-paso o que cruza varias áreas en partes manejables y las coordina (con sub-agentes cuando conviene). Trigger: cuando hay una tarea grande que involucra múltiples pasos, áreas, o que Claude no puede resolver de una sola vez bien."
+---
+
 # Skill: orchestrate
 
 **Trigger:** cuando hay una tarea grande que involucra múltiples pasos, áreas, o que Claude no puede resolver de una sola vez bien.

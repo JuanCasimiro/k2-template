@@ -1,3 +1,8 @@
+---
+name: k2-onboarding
+description: "Entrevista al dueño (por voz o texto, unos 20 minutos) y genera empresa/CONTEXTO.md. Corre la primera vez que se abre el repo o cuando no existe el contexto de la empresa. Trigger: cuando el usuario ejecuta `/k2-onboarding` o cuando es la primera vez que se abre el repo."
+---
+
 # Skill: k2-onboarding
 
 **Trigger:** cuando el usuario ejecuta `/k2-onboarding` o cuando es la primera vez que se abre el repo.

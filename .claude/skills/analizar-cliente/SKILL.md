@@ -1,3 +1,8 @@
+---
+name: analizar-cliente
+description: "Arma un perfil accionable de un cliente o prospecto — quién es, qué necesita, qué ofrecerle y cómo seguirlo. Usala cuando el usuario quiere entender o encarar a alguien. Trigger: cuando el usuario quiere entender mejor a un cliente o prospecto, dice \"¿cómo encarar a [nombre]?\", \"¿qué le ofrezco a [cliente]?\", \"analizame a este cliente\", \"¿qué necesita [nombre]?\", \"tuve una reunión con un prospecto y no sé por dónde ir\", o cuando quiere saber cómo hacer el seguimiento de alguien."
+---
+
 # Skill: analizar-cliente
 
 **Trigger:** cuando el usuario quiere entender mejor a un cliente o prospecto, dice "¿cómo encarar a [nombre]?", "¿qué le ofrezco a [cliente]?", "analizame a este cliente", "¿qué necesita [nombre]?", "tuve una reunión con un prospecto y no sé por dónde ir", o cuando quiere saber cómo hacer el seguimiento de alguien.

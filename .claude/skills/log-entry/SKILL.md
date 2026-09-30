@@ -1,3 +1,8 @@
+---
+name: log-entry
+description: "Captura rápida de algo que no se quiere perder (observación, número, contacto, idea, tarea) en el inbox del día, empresa/inbox/YYYY-MM-DD.md. Se activa con anotá, apuntá, no quiero olvidar. Trigger: el usuario dice \"anotá que\", \"no quiero olvidar\", \"apuntá\", \"guardá esto rápido\", \"para que no se pierda\", \"quiero dejar registro de\", o hay algo que surgió en la conversación que merece quedar capturado pero no es una reunión, aprendizaje formal ni decisión."
+---
+
 # Skill: log-entry
 
 **Trigger:** el usuario dice "anotá que", "no quiero olvidar", "apuntá", "guardá esto rápido", "para que no se pierda", "quiero dejar registro de", o hay algo que surgió en la conversación que merece quedar capturado pero no es una reunión, aprendizaje formal ni decisión.

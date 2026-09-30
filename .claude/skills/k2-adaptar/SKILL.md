@@ -1,3 +1,8 @@
+---
+name: k2-adaptar
+description: "Aprende las preferencias del usuario (tono, formato, largo, nivel de detalle) cuando corrige o rechaza algo, y las guarda en empresa/PREFERENCIAS.md para no repetirlas nunca. Trigger: cuando el usuario modifica o rechaza algo que propuso Claude (\"no, hacélo así\", \"eso no me gusta porque...\", \"prefiero que...\", cuando reescribe algo de Claude, cuando pide un formato específico por segunda vez)."
+---
+
 # Skill: k2-adaptar
 
 **Trigger:** cuando el usuario modifica o rechaza algo que propuso Claude ("no, hacélo así", "eso no me gusta porque...", "prefiero que...", cuando reescribe algo de Claude, cuando pide un formato específico por segunda vez).

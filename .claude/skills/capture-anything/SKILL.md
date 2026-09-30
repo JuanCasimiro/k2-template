@@ -1,3 +1,8 @@
+---
+name: capture-anything
+description: "Router de último recurso: captura y clasifica cualquier información que el usuario comparte sin preguntar ni pedir nada (una persona, un dato, un evento, un cambio) y la guarda donde corresponde. Trigger: cuando el usuario comparte información que no es una pregunta ni un pedido explícito. Es el router de último recurso: si ningún otro trigger matcheó y el usuario está compartiendo algo, este skill lo captura y lo clasifica."
+---
+
 # Skill: capture-anything
 
 **Trigger:** cuando el usuario comparte información que no es una pregunta ni un pedido explícito. Es el router de último recurso: si ningún otro trigger matcheó y el usuario está compartiendo algo, este skill lo captura y lo clasifica.

@@ -1,3 +1,8 @@
+---
+name: procesar-archivo
+description: "Extrae lo importante de un archivo, foto, PDF o documento que comparte el usuario y lo guarda en el lugar correcto del sistema. Trigger: el usuario sube un archivo, foto, PDF o documento — o dice \"tengo esto\", \"mirá lo que me mandaron\", \"procesame este archivo\", \"tengo una foto del pizarrón\"."
+---
+
 # Skill: procesar-archivo
 
 **Trigger:** el usuario sube un archivo, foto, PDF o documento — o dice "tengo esto", "mirá lo que me mandaron", "procesame este archivo", "tengo una foto del pizarrón".

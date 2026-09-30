@@ -1,3 +1,8 @@
+---
+name: k2-nuevo-proyecto
+description: "Crea la estructura de una nueva área o proyecto de la empresa (carpeta, COPILOT.md, PRODUCT_MEMORY.md) cuando el usuario quiere sumar una sección nueva al sistema. Trigger: cuando el usuario quiere crear una nueva área en su sistema (\"quiero agregar un proyecto de ventas\", \"armame una sección para proveedores\", \"necesito una carpeta para el equipo\")."
+---
+
 # Skill: k2-nuevo-proyecto
 
 **Trigger:** cuando el usuario quiere crear una nueva área en su sistema ("quiero agregar un proyecto de ventas", "armame una sección para proveedores", "necesito una carpeta para el equipo").

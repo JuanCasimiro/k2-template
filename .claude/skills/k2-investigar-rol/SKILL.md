@@ -1,3 +1,8 @@
+---
+name: k2-investigar-rol
+description: "Después del onboarding, releva cada proceso clave: si la empresa tiene metodología propia la documenta como skill; si no, investiga las mejores prácticas del sector y arma una. Trigger: después de completar `/k2-onboarding`, o cuando el usuario pide \"buscá mejores prácticas\", \"investigá cómo hacen X en mi sector\", \"hay alguna skill específica para mi industria\"."
+---
+
 # Skill: k2-investigar-rol
 
 **Trigger:** después de completar `/k2-onboarding`, o cuando el usuario pide "buscá mejores prácticas", "investigá cómo hacen X en mi sector", "hay alguna skill específica para mi industria".

@@ -1,3 +1,8 @@
+---
+name: log-decision
+description: "Registra una decisión con su porqué y las alternativas descartadas en empresa/decisiones/YYYY-MM.md. Se activa con decidí, quedamos en, elegimos, descartamos, cambié de idea. Trigger: cuando el usuario menciona una decisión que tomó (\"decidí\", \"quedamos en\", \"vamos a hacer\", \"la decisión es\", \"lo vamos a hacer así\", \"elegimos\", \"descartamos\", \"la dirección es\"), o cuando retroactivamente aclara una decisión anterior (\"en realidad decidí\", \"cambié de idea\", \"al final fue\")."
+---
+
 # Skill: log-decision
 
 **Trigger:** cuando el usuario menciona una decisión que tomó ("decidí", "quedamos en", "vamos a hacer", "la decisión es", "lo vamos a hacer así", "elegimos", "descartamos", "la dirección es"), o cuando retroactivamente aclara una decisión anterior ("en realidad decidí", "cambié de idea", "al final fue").

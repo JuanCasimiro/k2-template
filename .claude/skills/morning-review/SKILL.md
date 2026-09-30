@@ -1,3 +1,8 @@
+---
+name: morning-review
+description: "Arranque del día: síntesis de las últimas 24 horas, los 3 frentes de hoy y patrones que podrían automatizarse. Se activa con buenos días, qué tengo hoy, arranquemos. Trigger: el usuario dice \"buenos días\", \"qué tengo hoy\", \"cómo viene el día\", \"arranquemos\", \"qué hago hoy\", o inicia la primera sesión del día antes de las 10am."
+---
+
 # Skill: morning-review
 
 **Trigger:** el usuario dice "buenos días", "qué tengo hoy", "cómo viene el día", "arranquemos", "qué hago hoy", o inicia la primera sesión del día antes de las 10am.

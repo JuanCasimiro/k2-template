@@ -1,3 +1,8 @@
+---
+name: sdd
+description: "Spec Driven Development: antes de encarar algo nuevo e importante (proceso, proyecto, feature), escribir la spec — qué se hace, cómo se sabe que está listo y qué queda afuera. Trigger: cuando el usuario quiere encarar algo nuevo importante — un proceso, un proyecto, una mejora significativa — antes de ejecutar."
+---
+
 # Skill: sdd (Spec-Driven Development)
 
 **Trigger:** cuando el usuario quiere encarar algo nuevo importante — un proceso, un proyecto, una mejora significativa — antes de ejecutar.

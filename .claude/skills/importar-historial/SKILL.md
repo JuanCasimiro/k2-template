@@ -1,3 +1,8 @@
+---
+name: importar-historial
+description: "Importa contexto de la empresa que ya existe en otro lado (resumen de otra IA, notas, Obsidian, Notion) y lo vuelca al sistema; después completa lo que falta con las preguntas del onboarding. Trigger: el usuario pega un bloque de texto con información estructurada de su empresa (output del prompt extractor), o dice \"te mando el resumen que me dio Claude/ChatGPT\"."
+---
+
 # Skill: importar-historial
 
 **Trigger:** el usuario pega un bloque de texto con información estructurada de su empresa (output del prompt extractor), o dice "te mando el resumen que me dio Claude/ChatGPT".

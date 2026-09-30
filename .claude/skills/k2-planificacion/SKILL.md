@@ -1,3 +1,8 @@
+---
+name: k2-planificacion
+description: "Planifica un proyecto o feature como contrato de implementación — prioridades, qué primero, criterio de listo — para que cualquiera lo ejecute sin preguntar qué se quiso decir. Trigger: cuando el usuario quiere planificar un proyecto, definir prioridades, decidir qué hacer primero, escribir una spec, o pensar el próximo paso de un área."
+---
+
 # Skill: k2-planificacion
 
 **Trigger:** cuando el usuario quiere planificar un proyecto, definir prioridades, decidir qué hacer primero, escribir una spec, o pensar el próximo paso de un área.

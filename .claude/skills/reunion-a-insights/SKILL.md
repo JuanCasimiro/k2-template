@@ -1,3 +1,8 @@
+---
+name: reunion-a-insights
+description: "Convierte una reunión (transcripción o relato) en un documento con resumen, puntos clave, perfil del otro y próximos pasos, guardado en empresa/reuniones/. Trigger: cuando el usuario menciona una reunión que tuvo, pega una transcripción, dice \"resumime la reunión con X\", \"qué saqué de la reunión de hoy\", \"tuve una reunión con [nombre]\", \"analizame esta conversación\", o cuando comparte texto que parece ser una transcripción o resumen de una reunión."
+---
+
 # Skill: reunion-a-insights
 
 **Trigger:** cuando el usuario menciona una reunión que tuvo, pega una transcripción, dice "resumime la reunión con X", "qué saqué de la reunión de hoy", "tuve una reunión con [nombre]", "analizame esta conversación", o cuando comparte texto que parece ser una transcripción o resumen de una reunión.

@@ -1,3 +1,8 @@
+---
+name: reporte-semanal
+description: "Genera el reporte ejecutivo de la semana (qué avanzó, qué está trabado, reuniones, aprendizajes, foco de la próxima) y lo guarda en empresa/reportes/. Trigger: cuando el usuario pide un resumen de la semana, dice \"¿cómo vino la semana?\", \"¿qué hice esta semana?\", \"dame el reporte semanal\", \"¿cómo está la empresa?\", \"¿qué tengo que hacer la semana que viene?\", \"cerremos la semana\", o cuando quiere revisar el estado general de sus proyectos."
+---
+
 # Skill: reporte-semanal
 
 **Trigger:** cuando el usuario pide un resumen de la semana, dice "¿cómo vino la semana?", "¿qué hice esta semana?", "dame el reporte semanal", "¿cómo está la empresa?", "¿qué tengo que hacer la semana que viene?", "cerremos la semana", o cuando quiere revisar el estado general de sus proyectos.

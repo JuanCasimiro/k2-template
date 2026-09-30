@@ -1,3 +1,8 @@
+---
+name: k2-aprender
+description: "Guarda un aprendizaje significativo en empresa/APRENDIZAJES.md y lo commitea, para construir la memoria histórica de la empresa. Usala cuando dice acordate, guardá esto, o al cerrar una sesión con insights. Trigger: cuando el usuario dice \"acordate de esto\", \"guardá esto\", \"aprendizaje\", o al final de una sesión larga cuando hubo algo relevante."
+---
+
 # Skill: k2-aprender
 
 **Trigger:** cuando el usuario dice "acordate de esto", "guardá esto", "aprendizaje", o al final de una sesión larga cuando hubo algo relevante.

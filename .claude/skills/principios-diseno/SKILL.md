@@ -1,3 +1,8 @@
+---
+name: principios-diseno
+description: "Principios para diseñar procesos, flujos y formas de organizar información que se usen de verdad y no queden en papel. Cargarla al diseñar o mejorar un proceso. Trigger: cuando se está diseñando un proceso, un flujo de trabajo, una forma de organizar información, o cómo debe funcionar algo."
+---
+
 # Skill: principios-diseno
 
 **Trigger:** cuando se está diseñando un proceso, un flujo de trabajo, una forma de organizar información, o cómo debe funcionar algo.

@@ -88,3 +88,9 @@ Pegale esto:
 Tengo información en [Obsidian / Documentos / Notion / etc.].
 Tomá lo que sirva y pasalo al sistema, sin tocar esas carpetas.
 ```
+
+---
+
+## Licencia
+
+MIT — usalo, copialo y adaptalo libremente. Ver [`LICENSE`](LICENSE).
